@@ -355,3 +355,30 @@
         margin-top: 2rem;
     }
 }
+
+/* Services */
+
+.services {
+    background: #131313;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.services h1 {
+    background-color: #ff8177;
+    background-image: linear-gradient(to top, #64aae4 0%, #b1d5f3 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    padding-bottom: 3rem;
+}
+
+.services__container {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 15px 15px;
+}
